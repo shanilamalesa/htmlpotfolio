@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+</head>
+<body>
+    <header>
+        <h1 style="font-size: 40px"> Get in touch</h1>
+    </header>
+    <hr>
+    <main>
+        <section>
+            <nav>
+                <h2 style="font-size: 25px"> Contact Me</h2>
+                <form action="/submit-form" method="POST">
+                    
+                        <label for="Name">Name:</label>
+                        <input type="radio" name="name" id="name"><br><br>
+                        <hr>
+
+                        <label for="pref-email">Email</label>
+                        <input type="radio"  name="email" id="email"><br><br>
+                        <hr>
+
+                        <label for="Message">Message</label><br>
+                        <textarea id="message" name="message" rows="4" cols="30"></textarea><br><br>
+
+                        <label for="subject">What is this about?</label><br><br>
+                        <select id="subject" name="subject">
+                            <option value="general">General Inquiry</option>
+                            <option value="Project Collaboration">Project Collaboration</option>
+                            <option value="Freelance Work">Freelance Work</option>
+                            <option value="Feedback">Feedback</option>
+                        </select><br><br>
+
+                            <hr>
+                                                
+                        <button type="Submit"> Submit</button>
+                        <hr>
+
+                </form>
+            </nav>
+        </section>
+        <section>
+            <nav>
+                <h3>Frequently Asked Questions</h3>
+                    <details>
+                        <summary> What is your current experience level?</summary>
+                        <p>I am a junior developer currently building projects with HTML and CSS. I am focused on creating clean, responsive, and user-friendly websites as I continue to grow my skills.</p>
+                    </details>
+            </nav>
+        </section>
+    </main>
+    
+</body>
+</html>

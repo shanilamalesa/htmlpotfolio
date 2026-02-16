@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+h1 {
+    text-align: center;
+    color: teal;
+    background-color: aqua;
+    font-size: 40px;
+}
+
+#logo {
+    font-size: 30px;
+    backGround-color: red;
+}
+h2 {
+    font-size: 25px;
+    backGround-color: rgb(192, 80, 80);
+    text-align: center;
+}
+h3 {
+    font-size: 25px;
+    backGround-color:DodgerBlue ;
+    text-align: center;
+    
+}
+h4 {
+    font-size: 25px;
+    backGround-color: red;
+    text-align: center;
+    
+}
+h5 {
+    font-size: 25px;
+    backGround-color: red;
+    text-align: center;
+}
